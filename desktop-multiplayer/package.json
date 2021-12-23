@@ -1,0 +1,25 @@
+{
+  "name": "clumsy_32wrench",
+  "main": "main.js",
+  "productName": "Clumsy Wrench",
+  "description": "Clumsy Wrench",
+  "author": "Arthur Pacaud (arthuro555)",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.example.multiplayergame",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
